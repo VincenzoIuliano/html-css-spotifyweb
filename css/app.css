@@ -19,6 +19,16 @@ a {
     text-decoration: none;
 }
 
+/* UTILITIES  */
+
+.album_name {
+    color: white;
+    font-weight: 600;
+}
+
+.song_name {
+    color: #818181;
+}
 
 /* MAIN  */
 
@@ -44,10 +54,37 @@ a {
 /* HOMEPAGE  */
 
 .homepage {
-    width: 100%;
+    flex-grow: 1;
 }
 
+/* PLAYER  */
 
+.player {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0 10px;
+    background-color: #282828;
+}
+
+.music_playing {
+    display: flex;
+    gap: 15px;
+
+}
+
+.player_img {
+    width: 38px;
+    aspect-ratio: 1 / 1;
+    display: block;
+    flex-shrink: 0;
+}
+
+.icons {
+    color: #818181;
+    align-content: center;
+    padding-left: 30px;
+}
 
 
 
@@ -92,5 +129,5 @@ a {
 /* DEBUG  */
 
 .debug {
-    border: 5px solid black;
+    border: 2px solid black;
 }
