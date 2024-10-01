@@ -51,9 +51,34 @@ a {
 
 
 
+/* MEDIA QUERIES  */
+
+/* QUERIES VIEWPORT MID  */
 
 
+@media (max-width: 878px) {
 
+}
+
+/* QUERIES VIEWPORT SMALL  */
+
+@media (max-width: 639px) {
+    
+}
+
+/* QUERIES VIEWPORT EXTRASMALL  */
+
+@media (max-width: 552px) {
+    .sidebar {
+        width: 50px;
+    }
+}
+
+/* QUERIES VIEWPORT THIN  */
+
+@media (max-height: 221px) {
+    
+}
 
 
 
