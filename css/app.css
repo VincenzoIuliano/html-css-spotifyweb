@@ -30,10 +30,22 @@ a {
 }
 
 .main_content {
+    display: flex;
     flex-grow: 1;
 }
 
+/* SIDEBAR  */
 
+.sidebar {
+    width: 230px;
+    flex-shrink: 0;
+}
+
+/* HOMEPAGE  */
+
+.homepage {
+    width: 100%;
+}
 
 
 
