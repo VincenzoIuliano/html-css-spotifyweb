@@ -19,6 +19,17 @@ a {
     text-decoration: none;
 }
 
+button {
+    background-color: transparent;
+    border: none;
+    color: currentColor;
+    font-size: inherit;
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+
+}
 /* UTILITIES  */
 
 .album_name {
@@ -28,6 +39,10 @@ a {
 
 .song_name {
     color: #818181;
+}
+
+.white_font {
+    color: white;
 }
 
 /* MAIN  */
@@ -49,12 +64,14 @@ a {
 .sidebar {
     width: 230px;
     flex-shrink: 0;
+    background-color: black;
 }
 
 /* HOMEPAGE  */
 
 .homepage {
     flex-grow: 1;
+    background: #141922;
 }
 
 /* PLAYER  */
@@ -70,7 +87,8 @@ a {
 .music_playing {
     display: flex;
     gap: 15px;
-    padding: 25px;
+    padding: 10px; 
+    align-items: center;
 
 }
 
@@ -88,7 +106,7 @@ a {
 }
 
 .music_controls {
-    width: 50%;
+    width: 45%;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -108,7 +126,39 @@ a {
     color: white;
 }
 
+.play_button {
+    font-size: 30px;
+    margin: 0 7px;
+}
 
+.progress_bar {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.slider {
+    flex-grow: 1;
+    height: 5px;
+    width: 120px;
+    background-color: white;
+}
+
+.speaker_controls {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.volume_slider {
+    width: 120px;
+    background-color: white;
+    height: 4px;
+}
+
+.song_info {
+    font-size: 12px;
+}
 
 /* MEDIA QUERIES  */
 

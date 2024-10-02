@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/app.css">
     <script src="https://kit.fontawesome.com/5d365897a8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <title>Spotify</title>
 </head>
 <body>
@@ -34,25 +37,36 @@
                         <i class="fa-regular fa-folder"></i>
                     </div>
                 </div>
-                <div class="music_controls debug">
-                    <div class="controls_icons">
-                        <i class="fa-solid fa-shuffle"></i>
-                        <i class="fa-solid fa-backward-step"></i>
-                        <i class="fa-solid fa-play"></i>
-                        <i class="fa-solid fa-forward"></i>
-                        <i class="fa-solid fa-repeat"></i>
+                <div class="music_controls">
+                    <div class="controls_icons"> 
+                       <button><i class="fa-solid fa-shuffle"></i></button>
+                       <button><i class="fa-solid fa-backward-step"></i></button>
+                       <button class="play_button"><i class="fa-regular fa-circle-play"></i></button>
+                       <button><i class="fa-solid fa-forward"></i></button>
+                       <button><i class="fa-solid fa-repeat"></i></button>
                     </div>
                     <div class="progress_bar">
-                        
+                        <div class="progress_time white_font">
+                            0:25
+                        </div>
+                        <div class="slider"></div>
+                        <div class="total_time white_font">
+                            4:56
+                        </div>
                     </div>
                 </div>
                 <div class="speaker_controls debug">
                     <i class="fa-solid fa-list"></i>
                     <i class="fa-solid fa-desktop"></i>
                     <i class="fa-solid fa-volume-high"></i>
+                    <div class="volume_slider"></div>
 
                 </div>
            </div> 
+           <!-- QUI CREO LA SIDEBAR  -->
+            <div class="sidebar">
+                
+            </div>
         </div>
     </main>
 </body>
