@@ -70,20 +70,6 @@ html {
     background-color: black;
 }
 
-.sidebar_logo {
-    color: white;
-    text-align: center;
-    font-size: 24px;
-}
-
-.Spotify_logo {
-    font-size: 30px;
-}
-
-.sidebar > * {
-    color: #818181;
-     padding: 0 20px;
-}
 
 .sidebar_sections {
     gap: 8px;
