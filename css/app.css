@@ -100,6 +100,16 @@ html {
     display: inline-block;
 }
 
+/* NEW PLAYLIST  */
+
+.new_playlist {
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 15px 15px;
+}
+
 /* MY PLAYLIST  */
 
 .my_playlists {
