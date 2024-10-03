@@ -76,7 +76,8 @@ html {
 .sidebar_logo {
    width: 132px;
    display: flex;
-   align-content: center;
+   align-items: center;
+   padding-bottom: 30px;
 }
 
 .icons_button {
@@ -91,6 +92,8 @@ html {
 .sidebar_sections {
     display: flex;
     flex-direction: column;
+    align-items: baseline;
+    padding: 0px 15px;
 }
 
 .add_button {
@@ -275,8 +278,17 @@ html {
         width: 50px;
     }
 
+    .sidebar_sections .icons_text {
+        display: none;
+    }
+
     .my_playlists,
     .new_playlist {
+        display: none;
+    }
+
+    .user_details .install_app,
+    .user_profile .user-name {
         display: none;
     }
 }
