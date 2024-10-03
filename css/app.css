@@ -66,17 +66,70 @@ html {
 
 .sidebar {
     width: 230px;
-    flex-shrink: 0;
-    background-color: black;
-}
-
-
-.sidebar_sections {
-    gap: 8px;
     display: flex;
     flex-direction: column;
-    padding-top: 15px;
+    flex-shrink: 0;
+    background-color: rgb(64, 153, 156);
 }
+
+.sidebar_logo {
+   width: 132px;
+   display: flex;
+   align-content: center;
+}
+
+.icons_button {
+    width: 25px;
+    aspect-ratio: 1 / 1;
+}
+
+.icons_text {
+    color: white;
+}
+
+.sidebar_sections {
+    display: flex;
+    flex-direction: column;
+}
+
+.add_button {
+    color: black;
+    background-color: white;
+    padding: 10px 10px;
+    display: inline-block;
+}
+
+/* USER INFO  */
+
+.user_details {
+    margin-top: auto;
+}
+
+.user_details .app_download,
+.user_details .user_profile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 15px;
+}
+
+.user_profile .user_thumbnail {
+    width: 25px;
+    aspect-ratio: 1/1;
+    background-color: #adadad;
+    border-radius: 50%;
+    overflow: hidden;
+}
+    
+.app_download img {
+    width: 25px;
+}
+
+.user_profile .user_thumbnail img {
+    display: block;
+    width: 100%;
+}
+
 /* HOMEPAGE  */
 
 .homepage {
@@ -166,8 +219,8 @@ html {
     height: 4px;
 }
 
-.song_info {
-    font-size: 12px;
+.sidebar {
+    color: white;
 }
 
 /* MEDIA QUERIES  */
@@ -190,6 +243,11 @@ html {
 @media (max-width: 552px) {
     .sidebar {
         width: 50px;
+    }
+
+    .my_playlists,
+    .new_playlist {
+        display: none;
     }
 }
 
